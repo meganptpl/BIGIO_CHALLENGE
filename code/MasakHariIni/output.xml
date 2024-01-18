@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.10.11 on win32)" generated="20240118 17:55:07.567" rpa="false">
+<suite id="s1" name="MasakHariIni" source="D:\UTS\UTS_Praktikum_007\MasakHariIni">
+<suite id="s1-s1" name="Test" source="D:\UTS\UTS_Praktikum_007\MasakHariIni\test">
+<suite id="s1-s1-s1" name="Logout" source="D:\UTS\UTS_Praktikum_007\MasakHariIni\test\Logout.robot">
+<test id="s1-s1-s1-t1" name="Logout">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://sertiva.id/</arg>
+<arg>edge</arg>
+</arguments>
+<msg timestamp="20240118 17:55:07.931" level="INFO">Opening browser 'edge' to base url 'https://sertiva.id/'.</msg>
+<msg timestamp="20240118 17:55:07.949" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20240118 17:55:07.931" endtime="20240118 17:55:11.689"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20240118 17:55:11.689" endtime="20240118 17:55:11.694"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="__layout"]/div/div/div[1]/div[1]/div/div[3]/a[1]</arg>
+</arguments>
+<msg timestamp="20240118 17:55:11.695" level="INFO">Clicking element '//*[@id="__layout"]/div/div/div[1]/div[1]/div/div[3]/a[1]'.</msg>
+<status status="PASS" starttime="20240118 17:55:11.695" endtime="20240118 17:55:11.795"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20240118 17:55:13.805" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20240118 17:55:11.796" endtime="20240118 17:55:13.805"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="email"]</arg>
+<arg>megaria01@gmail.com</arg>
+</arguments>
+<msg timestamp="20240118 17:55:13.806" level="INFO">Typing text 'megaria01@gmail.com' into text field '//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20240118 17:55:13.805" endtime="20240118 17:55:14.046"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20240118 17:55:16.056" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20240118 17:55:14.046" endtime="20240118 17:55:16.056"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="password"]</arg>
+<arg>Megaria01</arg>
+</arguments>
+<msg timestamp="20240118 17:55:16.057" level="INFO">Typing text 'Megaria01' into text field '//*[@id="password"]'.</msg>
+<status status="PASS" starttime="20240118 17:55:16.056" endtime="20240118 17:55:16.149"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20240118 17:55:18.163" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20240118 17:55:16.150" endtime="20240118 17:55:18.163"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="__layout"]/div/div/div[1]/form/button[1]</arg>
+</arguments>
+<msg timestamp="20240118 17:55:18.164" level="INFO">Clicking element '//*[@id="__layout"]/div/div/div[1]/form/button[1]'.</msg>
+<status status="PASS" starttime="20240118 17:55:18.163" endtime="20240118 17:55:18.238"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>7</arg>
+</arguments>
+<msg timestamp="20240118 17:55:25.253" level="INFO">Slept 7 seconds</msg>
+<status status="PASS" starttime="20240118 17:55:18.239" endtime="20240118 17:55:25.253"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="__layout"]/div/div[1]/div/div[2]/div[1]</arg>
+</arguments>
+<msg timestamp="20240118 17:55:25.255" level="INFO">Clicking element '//*[@id="__layout"]/div/div[1]/div/div[2]/div[1]'.</msg>
+<msg timestamp="20240118 17:55:26.587" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240118 17:55:26.593" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class="dashboard__user"&gt;...&lt;/div&gt; is not clickable at point (873, 32). Other element would receive the click: &lt;div class="overlay overlay--show overlay--bigger"&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=120.0.2210.144)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74A9A0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A92EC92+216482]
+	(No symbol) [0x00007FF74A749E1B]
+	(No symbol) [0x00007FF74A7A16BB]
+	(No symbol) [0x00007FF74A79F17A]
+	(No symbol) [0x00007FF74A79C8BD]
+	(No symbol) [0x00007FF74A79B4FB]
+	(No symbol) [0x00007FF74A78D959]
+	(No symbol) [0x00007FF74A7BC0DA]
+	(No symbol) [0x00007FF74A78D3E1]
+	(No symbol) [0x00007FF74A78D28D]
+	(No symbol) [0x00007FF74A7BC670]
+	(No symbol) [0x00007FF74A78D3E1]
+	(No symbol) [0x00007FF74A7D8A7E]
+	(No symbol) [0x00007FF74A7BBD43]
+	(No symbol) [0x00007FF74A78C162]
+	(No symbol) [0x00007FF74A78B5BD]
+	(No symbol) [0x00007FF74A78C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF74AB56CDA+1051354]
+	(No symbol) [0x00007FF74A80F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF74A8A6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF74A89E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF74AB559D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A938978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A934104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A934232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A928FD1+192737]
+	BaseThreadInitThunk [0x00007FFBC5717034+20]
+	RtlUserThreadStart [0x00007FFBC5C1CEC1+33]
+</msg>
+<status status="FAIL" starttime="20240118 17:55:25.254" endtime="20240118 17:55:26.593"></status>
+</kw>
+<status status="FAIL" starttime="20240118 17:55:07.929" endtime="20240118 17:55:26.594" critical="yes">ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class="dashboard__user"&gt;...&lt;/div&gt; is not clickable at point (873, 32). Other element would receive the click: &lt;div class="overlay overlay--show overlay--bigger"&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=120.0.2210.144)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74A9A0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A92EC92+216482]
+	(No symbol) [0x00007FF74A749E1B]
+	(No symbol) [0x00007FF74A7A16BB]
+	(No symbol) [0x00007FF74A79F17A]
+	(No symbol) [0x00007FF74A79C8BD]
+	(No symbol) [0x00007FF74A79B4FB]
+	(No symbol) [0x00007FF74A78D959]
+	(No symbol) [0x00007FF74A7BC0DA]
+	(No symbol) [0x00007FF74A78D3E1]
+	(No symbol) [0x00007FF74A78D28D]
+	(No symbol) [0x00007FF74A7BC670]
+	(No symbol) [0x00007FF74A78D3E1]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x00007FF74A78C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF74AB56CDA+1051354]
+	(No symbol) [0x00007FF74A80F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF74A8A6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF74A89E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF74AB559D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A938978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A934104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A934232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF74A928FD1+192737]
+	BaseThreadInitThunk [0x00007FFBC5717034+20]
+	RtlUserThreadStart [0x00007FFBC5C1CEC1+33]</status>
+</test>
+<status status="FAIL" starttime="20240118 17:55:07.635" endtime="20240118 17:55:26.596"></status>
+</suite>
+<status status="FAIL" starttime="20240118 17:55:07.632" endtime="20240118 17:55:26.601"></status>
+</suite>
+<status status="FAIL" starttime="20240118 17:55:07.607" endtime="20240118 17:55:26.604"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="MasakHariIni">MasakHariIni</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Test">MasakHariIni.Test</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Logout">MasakHariIni.Test.Logout</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
